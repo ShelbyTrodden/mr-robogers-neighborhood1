@@ -17,6 +17,15 @@ function RobogersNeighborhood(Num) {
   }
 
 }
+let array= inputtedNumber(Num)
+if array.includes("1") {
+  return "Beep!";
+} else if array.includes("2"){
+    return "Boop!";
+  } else array.includes("3"){
+    return "Won't you be my neighbor?"
+  }
+
 
 
 // UI Logic
