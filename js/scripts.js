@@ -16,22 +16,23 @@ function RobogersNeighborhood(Num) {
     return 0;
   }
 
-}
+function beepBoopNeighbor(){
 let array= inputtedNumber(Num)
 if array.includes("1") {
-  return "Beep!";
-} else if array.includes("2"){
-    return "Boop!";
+  results return "Beep!";
+} else if array.includes("2") {
+    results return "Boop!";
   } else array.includes("3"){
-    return "Won't you be my neighbor?"
+    results return "Won't you be my neighbor?"
   }
-
+}  
 
 
 // UI Logic
 
-function boldPassage(word, text) {
-  if (noInputtedWord(word, text)) {
-    return "";
-  }
-}
+$(document).ready(function() {
+  $("#roboger").submit(function(event) {
+    event.preventDefault();
+    $("#beep-boop").show();
+  });
+});

@@ -1,7 +1,12 @@
+#beep-boop {
+  display:none;
+}
+
 body {
   color: antiquewhite;
   background-color: rgb(16, 2, 70);
 }
+
 .class {
   margin: 4px;
   border: black;
@@ -17,8 +22,6 @@ h2 {
   text-decoration: underline;
   text-align: center;
   margin-bottom: 25px;
-  
-  
 }
 
 .btn {
